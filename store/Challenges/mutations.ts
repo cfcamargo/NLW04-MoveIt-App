@@ -16,8 +16,8 @@ export default {
     if (shouldLevelUp) {
       state.level += 1
 
-      const remainingXp = currentTotalXp + end
-      const experienceToNextLevel = Math.pow(state.level + 1 * 4, 2)
+      const remainingXp = currentTotalXp - end
+      const experienceToNextLevel = Math.pow((state.level + 1) * 4, 2)
 
       state.xp = {
         current: remainingXp,
