@@ -5,6 +5,7 @@
         {{ `Ganhe ${amount} de xp`}}
       </h2>
     </header>
+   
 
     <main class="flex flex-col flex-1 justify-center items-center ">
       <img :src="`icons/${type}.svg`" :alt="type" :style="{ minHeight: '70px' }"/>
